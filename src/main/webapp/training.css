@@ -1,0 +1,37 @@
+#exercises {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.exercise {
+    display: flex;
+    background-color: #555555;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.headline {
+    display: flex;
+    align-items: baseline;
+}
+
+h4 {
+    margin: 0;
+}
+
+.checkbox {
+    width: auto;
+
+}
+
+#osnasports-logo {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 140px;
+}

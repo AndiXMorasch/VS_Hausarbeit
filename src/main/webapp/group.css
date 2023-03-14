@@ -1,0 +1,47 @@
+.overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    row-gap: 15px;
+}
+
+#training-plans, #trainings {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    column-gap: 8px;
+}
+
+.training-plan, .training {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #555555;
+    border-radius: 8px;
+}
+
+.training-plan-name {
+    margin-bottom: 10px;
+}
+
+.hint {
+    margin-top: 4px;
+}
+
+.zero {
+    color: #3a3a3a;
+}
+
+.username {
+    justify-self: left;
+}
+
+#osnasports-logo {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 140px;
+}

@@ -1,0 +1,132 @@
+body {
+    padding: 5px 10px;
+    background-color: #444444;
+    font-family: "Arial", serif;
+    color: #dddddd;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: #dddddd;
+    background-color: #aa5588;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bb4477;
+}
+
+button.secondary {
+    background-color: #333333;
+}
+
+button.secondary:hover {
+    background-color: #3a3a3a;
+}
+
+input {
+    background-color: #666666;
+    border: #333333 2px solid;
+    border-radius: 4px;
+    color: #dddddd;
+    padding: 5px 8px;
+    width: 100%;
+}
+
+label {
+    color: #c5c5c5;
+    font-size: small;
+}
+
+input:focus {
+    border-color: #aa5588;
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    min-width: 500px;
+    width: 80%;
+}
+
+.exercise-selection {
+    padding: 5px 10px;
+    background-color: #555555;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#exercises {
+    margin: 5px 0px;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.exercise {
+    background-color: #555555;
+    border-radius: 8px;
+    padding: 8px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px;
+}
+
+.clickable {
+    background-color: #888888;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    background-color: #777777;
+}
+
+.save {
+    margin: 8px 0px;
+    align-self: end;
+}
+
+.hint {
+    font-size: small;
+    color: #c5c5c5;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.row input {
+    width: auto;
+    flex: 2;
+}
+
+#osnasports-logo {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 140px;
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.bottom-row button {
+    width: auto;
+    flex: 2;
+}
